@@ -19,3 +19,8 @@ For that you need to bind IP
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Get Running Node Process 
+> ps -aef | grep node
+
+// Search by nested json object and display specific field
+> db.getCollection('gamelogs').find({"body.UserId":"Xhr2LAvXMreP8fqrpqBs6aDAuoF2"}, {"body.Data.eventcount" : 1})
