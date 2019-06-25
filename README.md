@@ -24,3 +24,6 @@ For that you need to bind IP
 
 // Search by nested json object and display specific field
 > db.getCollection('gamelogs').find({"body.UserId":"Xhr2LAvXMreP8fqrpqBs6aDAuoF2"}, {"body.Data.eventcount" : 1})
+
+// Add file and commit - individual files
+> git commit file1 file2 file5 -m "commit message"
