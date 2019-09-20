@@ -41,3 +41,20 @@ git remote add origin https://github.com/abhi4email/node-readme.git
 
 git push -u origin master
 
+================================================================
+
+sudo snap install --classic heroku
+
+heroku login
+
+goto project directory
+
+git init
+
+heroku git:remote -a demo-node-webrtc
+
+git add .
+
+git commit -m "make it better"
+
+git push heroku master
