@@ -27,3 +27,11 @@ For that you need to bind IP
 
 // Add file and commit - individual files
 > git commit file1 file2 file5 -m "commit message"
+============================================================
+echo "# node-readme" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/abhi4email/node-readme.git
+git push -u origin master
+
